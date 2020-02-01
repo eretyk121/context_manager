@@ -1,36 +1,5 @@
 import datetime
 import time
-# from datetime import datetime, date, time
-# now = datetime.datetime.now()
-# # d = datetime.date(2012, 12, 14)
-# # print(d.year) # 2012
-# # print(d.day)  # 14
-# # print(d.month)
-# # print(datetime.date.today())
-# # now = datetime.datetime.now()
-# print(now)
-# # a = datetime.datetime(2017, 3, 5)
-# # print(a)  # datetime.datetime(2017, 3, 5, 0, 0)
-# #
-# # b = datetime.datetime(2017, 3, 5, 12, 30, 10)
-# # print(b)  # datetime.datetime(2017, 3, 5, 12, 30, 10)
-# #
-# # d = datetime.datetime(2017, 3, 5, 12, 30, 10)
-# # print(d.year)  # 2017
-# # print(d.second)  # 10
-# # print(d.hour)  # 12
-# # c = datetime.datetime.today().strftime("%Y%m%d")
-# # print(c)
-# #
-# # then = datetime.datetime(2020, 2, 17)
-# # delta = then - now
-#
-# for x in range(5):
-#     time.sleep(2)
-#     print("Slept for 2 seconds")
-#     print(datetime.datetime.now())
-import datetime
-import time
 class MyOpen:
 
     def __init__(self, path, method):
